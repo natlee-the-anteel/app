@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Summit Sentinel",
+    "slug": "summit-sentinel",
+    "scheme": "summitsentinel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      ["expo-audio", { "microphonePermission": false, "recordAudioAndroid": false }],
+      ["expo-location", { "locationWhenInUsePermission": "Use location to include the rider's last known position in an emergency text." }],
+      ["react-native-ble-plx", { "bluetoothAlwaysPermission": "Connect to the SnowShield sensor to monitor rider motion and detect impacts." }]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.summitsentinel.monitor"
+    },
+    "android": {
+      "package": "com.summitsentinel.monitor",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "summit-sentinel",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "run:android": "expo run:android",
+    "run:ios": "expo run:ios",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "expo": "~57.0.27",
+    "expo-constants": "~57.0.21",
+    "expo-audio": "~57.0.5",
+    "expo-linking": "~57.0.12",
+    "expo-location": "~57.0.20",
+    "expo-router": "~57.0.25",
+    "expo-sqlite": "~57.0.0",
+    "expo-sms": "~57.0.2",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-safe-area-context": "^5.10.1",
+    "react-native-ble-plx": "^3.5.1",
+    "react-native-screens": "^4.24.0",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.0",
+    "expo-dev-client": "~57.0.19",
+    "typescript": "~5.9.2"
+  }
+}
